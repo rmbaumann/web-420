@@ -13,7 +13,7 @@ mongoose.Promise = require('bluebird');
 
 
 // Database Connection
-mongoose.connect('mongodb+srv://web420admin:b3ll3vu3@buwebdev-cluster-1-opi0o.mongodb.net/api-gateway?retryWrites=true', {
+mongoose.connect('mongodb+srv://admin:b3ll3vu3@buwebdev-cluster-1-opi0o.mongodb.net/api-gateway?retryWrites=true', {
   promiseLibrary: require('bluebird')
 })
 .then ( () => console.log('connection established'))
