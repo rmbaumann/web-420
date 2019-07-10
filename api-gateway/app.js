@@ -9,10 +9,10 @@
 */
 
 /*
-
-Expected Output
-App.js requirements
-
+Expected output:
+  Reva Baumann
+  App.js
+  08 July 2019
 */
 
 // Start Program
