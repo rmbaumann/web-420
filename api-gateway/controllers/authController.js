@@ -23,5 +23,5 @@ exports.user_register = function(req, res) {
 
 // Verify token on GET
 exports.user_token = function(req, res) {
-    res.sent('NOT IMPLEMENTED: User token lookup GET');
+    res.send('NOT IMPLEMENTED: User token lookup GET');
 };
