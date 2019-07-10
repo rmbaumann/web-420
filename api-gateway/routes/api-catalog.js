@@ -1,3 +1,22 @@
+ /*
+=============================================
+; Title: api-catalog.js
+; Author: Reva Baumann
+; Date: 08 July 2019
+; Modified by: Reva Baumann
+; Description: api-catalog.js
+;============================================
+*/
+
+/*
+Expected output:
+  Reva Baumann
+  api-catalog.js
+  08 July 2019
+*/
+
+// Start Program
+
 /** API Routes */
 
 var express = require('express');
