@@ -1,10 +1,28 @@
+ /*
+=============================================
+; Title: app.js
+; Author: Reva Baumann
+; Date: 08 July 2019
+; Modified by: Reva Baumann
+; Description: App.js
+;============================================
+*/
 
+/*
+
+Expected Output
+App.js requirements
+
+*/
+
+// Start Program
 
 var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+var apiCatalog = require('/api', apiCatalog);
 
 var indexRouter = require('./routes/index');
 var mongoose = require('mongoose');
@@ -13,7 +31,7 @@ mongoose.Promise = require('bluebird');
 
 
 // Database Connection
-mongoose.connect('mongodb+srv://admin:b3ll3vu3@buwebdev-cluster-1-opi0o.mongodb.net/api-gateway?retryWrites=true', {
+mongoose.connect('mongodb+srv://admin:admin@bu-webdev-api-gateway-iyphi.mongodb.net/test', {
   promiseLibrary: require('bluebird')
 })
 .then ( () => console.log('connection established'))
