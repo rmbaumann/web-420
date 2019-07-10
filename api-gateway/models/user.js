@@ -20,10 +20,10 @@ Expected Output
 
 var mongoose = require('mongoose');
 var userSchema = new mongoose.Schema({
-    username: dianaprince,
-    password: lassooftruth,
-    email: invisiblejet@ww.com
-})
+    username: String,
+    password: String,
+    email: String
+});
 module.exports = mongoose.model('dianaprince', userSchema);
 
 /** Database Requirements */
