@@ -4,16 +4,18 @@
 ; Author: Reva Baumann
 ; Date: 08 July 2019
 ; Modified by: Reva Baumann
-; Description: Auth Controller
+; Description: authController.js
 ;============================================
 */
 
 /*
-
-Expected Output
-
+Expected output:
+  Reva Baumann
+  authController.js
+  08 July 2019
 */
 
+// Start Program
 var User = require('../models/user');
 
 // Register a new user on POST
