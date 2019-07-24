@@ -33,7 +33,7 @@ mongoose.Promise = require('bluebird');
 mongoose.connect('mongodb+srv://admin:b3ll3vu3@buwebdev-cluster-1-ivaeg.mongodb.net/api-gateway?retryWrites=true&w=majority', {
   promiseLibrary: require('bluebird')
 })
-.then ( () => console.log('connection established'))
+.then (() => console.log('connection established'))
 .catch( (err) => console.error(err));
 
 var app = express();
@@ -68,3 +68,5 @@ app.use(function(err, req, res, next) {
 });
 
 module.exports = app;
+
+// end program
